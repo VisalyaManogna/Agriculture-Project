@@ -1,0 +1,121 @@
+.header{
+    width: 100%;
+    height: 40px;
+    background: rgb(19, 148, 145);
+    line-height: 40px;
+    color: white;
+}
+
+.footer{
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    background: rgb(155, 216, 185);
+    color: white;
+    font-size: 7pt;
+    text-align: center;
+}
+
+.content{
+    width: 100%;
+    height: calc(100% - 60px);
+}
+
+.logouticon{
+    height: 16px;
+    float: right;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.menubar{
+    float: left;
+    width: 250px;
+    height: calc(100% - 4px);
+    padding: 30px;
+    background: whitesmoke;
+}
+
+.outlet{
+    float: left;
+    width: calc(100% - 200px);
+    height: 100%;
+}
+
+.menuheader{
+    width: 100%;
+    height: 40px;
+    background: rgb(51, 193, 164);
+    line-height: 30px;
+}
+
+.menuheader img{
+    height: 16px;
+    float: left;
+    padding-left: 5px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+.menuheader label{
+    color: white;
+    font-weight: bold;
+    padding-left: 10px;
+    cursor: pointer;
+    float: left;
+    font-size: 20px; /* Adjust the font size as per your requirement */
+    padding-left: 10px;
+}
+
+.menu{
+    width: 100%;
+    height: calc(100% - 30px);
+    overflow: auto;
+}
+
+.mlist{
+    list-style-type: none;
+    margin: 10px 0; /* Add margin to the top and bottom */
+    padding: 0;
+    width: 100%;
+}
+
+.mlist li label{
+    display: block;
+    padding: 20px 30px; /* Adjust the padding as per your requirement */
+    cursor: pointer;
+    background: #c6dde2;
+    border-top: 5px solid white;
+}
+
+.mlist li label:hover{
+    background: #B6DFE3;
+}
+
+.mlist li div{
+    width: 100%;
+    display: none;
+}
+
+.mlist li div label{
+    background: #E9EEF3;
+    cursor: pointer;
+    display: block;
+    padding: 10px 10px;
+    border-top: 1px solid white;
+}
+
+.outlet #titlebar{
+    background: whitesmoke;
+    width: 100%;
+    height: 30px;
+    line-height: 40px;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.outlet #module{
+    width: 100%;
+    height: calc(100% - 30px);
+    border: none;
+}
